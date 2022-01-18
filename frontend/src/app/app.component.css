@@ -1,0 +1,42 @@
+.navbar {
+    color: white;
+    background-color: #011C27;
+}
+
+.navbar-nav a {
+    color: white;
+    transition: 1s ease-in color;
+}
+
+.navbar-nav a:hover {
+    color: #F2AF29;
+}
+
+.navbar-nav a:active {
+    color: #F2AF29;
+}
+
+.navbar-nav a:focus {
+    color: #F2AF29;
+}
+
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #011C27;
+    color: white;
+    text-align: center;
+}
+
+.bg{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-67-chim-10570_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=c75bf1f3ef4c1e9d8655487f303269ca");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 100%;
+    
+}

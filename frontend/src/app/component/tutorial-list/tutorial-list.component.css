@@ -1,0 +1,43 @@
+.list {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.tutorials {
+  min-height: 80vh;
+}
+
+ul.list-group:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.list-group-item {
+    float: left;
+    margin:  3px 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-group-item {
+  flex-wrap: wrap;
+}
+
+.bg{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/k-67-chim-10570_1.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&auto=format&ixlib=js-2.2.1&s=c75bf1f3ef4c1e9d8655487f303269ca");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  height: 100%; 
+}

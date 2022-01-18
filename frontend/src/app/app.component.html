@@ -1,0 +1,31 @@
+<form> 
+  <div class="bg">
+    <nav class="navbar navbar-expand navbar-light">
+      <a href="#" class="navbar-brand">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Microsoft_To-Do_icon.png/735px-Microsoft_To-Do_icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">   
+      </a>
+      
+      <!-- <a href="#" class="navbar-brand">LuckyCoder</a> -->
+      <div class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a routerLink="tutorials" class="nav-link">Tutorials</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="add" class="nav-link">Add</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="about" class="nav-link">Members</a>
+        </li>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</form>
+
+<div class="footer text-center p-2 text-light">
+  <p>Made with ❤️ from the DA team &copy; {{year}}.</p>
+</div>
+
+<!-- changed the styling a bit -->

@@ -1,0 +1,35 @@
+.edit-form {
+  max-width: 750px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  min-height: 50vh;
+}
+
+.tutorials {
+  min-height: 80vh;
+}
+
+.deleted {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: black;
+  background-color: whitesmoke;
+}
+
+.deleted .btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-direction: column; */
+  margin: 5px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,33 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+
+    <!-- adding tutorial Form -->
+    <form>
+      <div *ngIf =!submitted>
+
+        <div class="fadeIn first bg-secondary rounded">
+          <h3>Please enter the tutorial details</h3>
+        </div>
+    
+        <input type="text" id="title" class="fadeIn second" name="Title" required [(ngModel)] = "tutorial.title"   placeholder="Title">
+
+        <input type="text" id="description" class="fadeIn third" name="Description" required [(ngModel)] = "tutorial.description" placeholder="Description">
+    
+        <button (click) ="saveTutorial()" class="btn btn-secondary m-2">Submit</button>
+    
+      </div>
+
+
+      <div *ngIf="submitted" class="submitted">
+          <h2 style="color:black;"> Tutorial was submitted successfully!</h2>
+          <button class="btn btn btn-secondary m-3"(click) ="newTutorial()"
+          >
+            OK
+          </button>
+      </div>
+
+    </form>
+  </div>
+</div>
+  
